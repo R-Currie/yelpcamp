@@ -1,0 +1,53 @@
+#navbar{
+	/* /* background: #5A3F37;  /* fallback for old browsers */
+	/* background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */ */
+	/* background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */ */ */
+}
+
+.navbar-brand{
+	color: #555555;
+}
+
+h5{
+	color: #555555;
+}
+
+.jumbotron{
+	background-image: url('https://images.unsplash.com/photo-1511142878591-5040f0bdaadd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron h1{
+	color: white;
+	text-shadow: -1px -1px 0 #555555, 1px -1px 0 #555555, -1px 1px 0 #000, 1px 1px 0 #555555;
+}
+
+.card img{
+	width: 100%;
+}
+
+.thumbnail-img{
+	width 100%;
+}
+
+.delete-form{
+	display: inline;
+}
+
+.btn-warning{
+	color: white;
+}
+
+.btn-warning:hover{
+	color: white;
+}
+
+#search-button{
+	margin-left: 5px;
+}
+
+#map{
+	height: 400px;
+	width: 100%;
+}
