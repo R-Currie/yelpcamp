@@ -114,14 +114,13 @@ router.get('/:id/edit', middleware.checkCampgroundOwnership, function(req, res){
 router.put("/:id", middleware.checkCampgroundOwnership, function(req, res){
     Campground.findByIdAndUpdate(req.params.id, req.body.campground, function(err, campground){
         if(err){
-            req.flash("error", err.message);
-            res.redirect("back");
-        } else {
-            req.flash("success","Successfully Updated!");
-            res.redirect("/campgrounds/" + campground._id);
-        }
-    });
-  });
+        	req.flash("error", err.message);
+        	res.redirect("back");
+    	} else {
+        	req.flash("success","Successfully Updated!");
+        	res.redirect("/campgrounds/" + campground._id);
+    	}
+	});
 });
 
 //DESTROY
