@@ -4,7 +4,7 @@
 
 A full stack Yelp clone that focuses on reviewing campsites. 
 
-![Yelp Camp Demo](https://i.imgur.com/sxjeHEo.gif)
+![Yelp Camp Demo](public/gif/yelpcamp.gif)
 
 ### Technologies
 * [Node.js](https://reactjs.org/) 16.11.0
