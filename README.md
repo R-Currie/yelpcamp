@@ -21,6 +21,7 @@ A full stack Yelp clone that focuses on reviewing campsites.
 2. Install dependencies
 > npm install
 3. Set up MongoDB to your cluster
+
 4. Start server
 > node app.js
 5. Enjoy!
