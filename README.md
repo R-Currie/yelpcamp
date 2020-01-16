@@ -4,6 +4,7 @@
 
 A full stack Yelp clone that focuses on reviewing campsites. 
 
+### Demo
 ![Yelp Camp Demo](public/images/yelpcamp.gif)
 
 ### Technologies
